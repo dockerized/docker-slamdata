@@ -1,7 +1,7 @@
 FROM java:openjdk-8
 MAINTAINER "Ocasta Studios <info@ocasta.com>"
 
-ENV QUASAR_VERSION="14.5.7"
+ENV QUASAR_VERSION="14.6.6"
 ENV SLAM_VERSION="4.1.1"
 RUN apt-get update && apt-get upgrade -y && \
     wget -q https://nodejs.org/dist/v4.6.1/node-v4.6.1-linux-x64.tar.xz && \
